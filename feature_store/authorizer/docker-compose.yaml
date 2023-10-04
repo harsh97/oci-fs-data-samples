@@ -1,0 +1,8 @@
+version: "3"
+services:
+  authorizer:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      args:
+        buildno: 1
