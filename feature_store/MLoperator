@@ -1,0 +1,10 @@
+type: forecast
+version: v1
+conda_type: custom
+gpu: no
+backends:
+  - job
+  - dataflow
+description: |
+  Authorizer operator, that leverages OCI identity client to perform
+  AuthN and AuthZ for non-native services
