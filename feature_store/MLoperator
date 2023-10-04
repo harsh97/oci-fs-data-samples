@@ -1,4 +1,4 @@
-type: forecast
+type: authorizer
 version: v1
 conda_type: custom
 gpu: no
